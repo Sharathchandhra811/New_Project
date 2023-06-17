@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main {
+    
+    display: flex;
+    max-width: 700px;
+    border-radius: 7px;
+}
+.card {
+    padding: 2em 2em;
+}
+.one{
+    position:relative;
+    background-color: hsl(31, 77%, 52%);
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    
+    
+}
+h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    margin-block: 2em 4em;
+}
+
+
+button:first-of-type:active{
+    background-color:transparent ;
+    border: 2px solid hsl(0, 0%, 95%) ;
+    color:hsl(0, 0%, 95%) ;
+}
+.two{
+    position:relative;
+    background-color: hsl(184, 100%, 22%);
+    width: 100%;
+}
+button{ 
+    padding: 0.6em;
+    color: inherit;
+    width: 80%;
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 15px;
+}
+.three{
+    position:relative;
+    background-color:  hsl(179, 100%, 13%);
+    width: 100%;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
